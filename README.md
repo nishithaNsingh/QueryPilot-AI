@@ -1,5 +1,3 @@
-
-```markdown
 # 🛫 QueryPilot-AI Admin Console
 
 An AI-powered, conversational e-commerce customer support tool designed exclusively for **Support Admins**. Built with **Streamlit**, **LangChain**, and **SQLite**, it allows support agents to query complex e-commerce data (orders, refunds, sellers, products) using plain English. 
@@ -79,4 +77,3 @@ uv run python -m pytest -q
 **Instant Database Queries (Rule-Based Fast-Path):**
 * `find this customer 001ae44fa04911a9e9577356dce6c63c active orders`
 * `faq: how long does delivery take`
-```
