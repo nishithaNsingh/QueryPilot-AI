@@ -1,0 +1,15 @@
+[project]
+name = "querypilot-ai"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.4.9",
+    "langchain-openai>=1.7.4",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.50",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
